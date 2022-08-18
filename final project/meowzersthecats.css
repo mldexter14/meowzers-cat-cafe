@@ -1,0 +1,146 @@
+/* * { box-sizing: border-box; } */
+
+body {font-family: Verdana, Arial, sans-serif; }
+
+#wrapper { background-color: #b1abb8; }
+
+
+
+header {background-color: #b1abb8;
+        background-image: url(catheader.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; }
+img     {max-width: 100%;
+        height: auto; }
+main  { background-color: #FFFFFF;
+        color: #7e6996;
+        padding: 2em 2em 2em 2em; }
+footer { background-color: #b1abb8;
+        font-size: 70%;
+        text-align: center;
+        padding: 0.5em 0; }
+nav   { font-size: 87%;
+        float: left;
+        width: 200px;
+        font-weight: bold;
+        letter-spacing: 0.1em; }
+nav ul { list-style-type: none;
+        margin: 0;
+        padding: 0; }
+nav a { text-decoration: none;
+        display: block;
+        padding: 25px 10px 10px 50px;
+        background-color: #7e6996;
+        border-bottom: 1px solid #FFFFFF;
+        background-repeat: no-repeat;
+        background-position: left 0px;
+        background-image: url("kitten-link.png");
+        height: 100%; }
+nav a:link {color: #FFFFFF; }
+nav a:visited {color: #EAEAEA; }
+nav a:hover { color: #7e6996;
+              background-color: #EAEAEA;
+              background-image: url("kitten-hover.png") }
+
+/* Contact Us page */
+/* form { background-color: #dad5e0;
+        font-family: Arial, sans-serif;
+        width: 350px; padding: 10px; }
+
+label { float: left; clear: left;
+        display: block; width: 100px;
+  	    text-align: right;
+        padding-right: 10px;
+         margin-top: 10px; }
+
+input, textarea { margin-top: 10px;
+                  display: block;}
+input[type="submit"] { margin-left: 110px; }
+
+@supports (display: grid) {
+  form {  display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 6em 1fr;
+        grid-gap: 1em; gap: 1em;
+        background-color: #dad5e0;
+        font-family: Arial, sans-serif;
+        min-width: 20em; width: 60%;
+        padding: 1.5em; }
+  input[type="submit"] { grid-column: 2 / 3;
+         width: 10em; margin-left: 0;}
+  } */
+
+/* The Cafe */
+/* table, td, th { border: 2px solid #7e6996; } */
+
+/* Force older versions of Internet Explorer to display these HTML5 elements with block display. */
+/* header, nav, main, footer { display: block; } */
+
+
+
+/*
+
+
+              @media (min-width: 300px ) {
+                nav ul { display: flex;
+                        width: 100%;
+                        flex-direction: column;
+                        flex-wrap: nowrap; }
+                nav ul li { border-bottom: none;
+                            flex: 1;
+                            height: 70px; }
+                header { grid-area: header; }
+                nav    { grid-area: nav;
+                         width: 100%; }
+                main   { grid-area: main; }
+                footer { grid-area: footer; }
+                        #wrapper { display: grid;
+                                  grid-template:
+                                  "header header"
+                                  "nav    nav"
+                                  "main   main"
+                                  "footer footer"
+                                  / 55%  }
+                      }
+
+
+              @media (min-width: 600px) {
+              nav ul { display: flex;
+                      width: 100%;
+                      flex-direction: row;
+                      flex-flow: row nowrap;
+                      justify-content: space-around; }
+              nav ul li { border-bottom: none;
+                        flex: 1;
+                        height: 70px; }
+              header { grid-area: header; }
+              nav    { grid-area: nav;
+                       width: 100%;}
+              main   { grid-area: main; }
+              footer { grid-area: footer; }
+              #wrapper { display: grid;
+                        grid-template:
+                        "header header"
+                        "nav    nav"
+                        "main   main"
+                        "footer footer"
+                        / 55%  }
+              }
+              @media (min-width: 1024px) {
+              body { background-color: #b1abb8; }
+              nav ul { display: flex;
+                      flex-direction: column;
+                      flex-wrap: nowrap; }
+              header { grid-area: header; }
+              nav    { grid-area: nav; }
+              main   { grid-area: main; }
+              footer { grid-area: footer; }
+              #wrapper { width: 80%;
+                         margin: auto; max-width: 1200px;
+                         display: grid;
+                         grid-template:
+                        "header  header  header"
+                        "nav main main"
+                        "footer  footer  footer"
+                        / 150px; }
+              } */
